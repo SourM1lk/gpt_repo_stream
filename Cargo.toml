@@ -1,0 +1,18 @@
+[package]
+name = "gpt_repo_stream"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+notify = "8.0"
+glob = "0.3.0"
+walkdir = "2.3.3"
+clap = { version = "4.5.27", features = ["derive"] }
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = "z"
+strip = true
+panic = "abort"
+debug = false
