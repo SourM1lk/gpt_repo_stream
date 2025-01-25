@@ -5,8 +5,8 @@ Repo Stream prepares codebases for AI models by watching a designated path and a
 ## How to Use
 1. Clone the repo and build it:
 ```bash
-git clone https://github.com/your-username/repo-stream.git
-cd repo-stream
+git clone https://github.com/SourM1lk/gpt_repo_stream
+cd gpt_repo_stream
 cargo build --release
 ```
 
