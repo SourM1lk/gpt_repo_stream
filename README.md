@@ -18,8 +18,10 @@ cargo build --release
 3. That’s it! You’ll get an output.txt file containing your codebase in a format ready for AI.
 
 ## Command-Line Options
+```
 --repo (or -r): The repository you want to process (required).
 --output (or -o): The name of the output file (default: output.txt).
+```
 
 ## Excluding Files
 You can use a .gptignore file in your repository to exclude files or directories. It works just like a .gitignore.
